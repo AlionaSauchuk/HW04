@@ -25,3 +25,10 @@ newElement.innerHTML = name;
 
 
 document.getElementById("userName").appendChild(newElement);
+
+
+
+function goToPage(){
+    var newUrl = "index2.html";
+    window.location.replace(newUrl);
+}
